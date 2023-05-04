@@ -1,87 +1,58 @@
-body {
-    background-color: pink;
+
+.nav{
+    background-color: #222;
+    color: white;
+    font-size: 45px;
 }
 
-
-/*navaigation */
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #333;
-    height: 64px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-
-    width: 100%;
-
+.nav .icon{
+    margin-left: 0.5rem;
 }
 
-body {
-    position: relative;
-    top: 120px;
+.nav .title{
+    margin: auto;
+    padding-right: 1.5rem;
 }
 
-i {
-    padding: 8px;
+.main{
+    height: 90vh;
+}
+
+.left{
+    height: 90vh;
+}
+
+.side-bar{
+    margin-top:5vh;
+    background-color: #222;
+    height: 80vh;
+    border-radius: 0.5rem;
+}
+
+/* right side */
+.right{
+    height: 90vh;
+}
+
+.header{
+    background-color: #222;
+    padding: 2vh 0;
+    margin: 5vh 0;
+    border-radius: 0.5rem;
     color: white;
 }
 
-h2 {
-    padding: 10px 0px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.mid-content .col{
+    background-color: #222;
+    height: 20vh;
+    margin: 5vh 0;
+    border-radius: 0.5rem;
 }
 
-/*sidemenu*/
-.sidemenu {
-    background-color: #333;
-    padding: 100px;
-    width: 300px;
-    height: 500px;
-    border-radius: 15px;
-
-
+.footer-card{
+    background-color: #222;
+    height: 32vh;
+    margin: 5vh 0;
+    border-radius: 0.5rem;
 }
 
-/*search*/
-.search {
-    background-color: #333;
-    width: 600px;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
-    margin: 0px 100px;
-
-
-}
-
-/*mid*/
-.mid {
-
-    margin: 80px 40px;
-    display: flex;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer {
-    background-color: #333;
-    height: 150px;
-    width: 100%;
-    margin: 70px 40px;
-    border-radius: 15px;
-
-}
-
-.midele {
-    background-color: #333;
-    height: 130px;
-    width: 200px;
-    border-radius: 15px;
-
-}

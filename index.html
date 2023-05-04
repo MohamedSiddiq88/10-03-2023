@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav>
-                    <div class="lelft">
-                        <i class="fa fa-github fa-3x"></i>
-                    </div>
-                    <div class="center">
-                        <h2>GITHUB</h2>
-                    </div>
-                    <div class="right">
-                    </div>
-                </nav>
-            </div>
 
-            <div class="col-sm">
-                <div class="sidemenu"><!--sidemenu-->
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="search">
-                    Serach
-                </div>
-                <!--midele-->
-                <div class="mid">
-                    <div class="midele"></div>
-                    <div class="midele"></div>
-                    <div class="midele"></div>
-                </div>
-                <div class="footer">
-
-                </div>
-            </div>
-
+    <!-- navbar -->
+    <div class="nav">
+        <div class="icon">
+            <p><i class="fa fa-github" aria-hidden="true"></i></p>
+        </div>
+        <div class="title">
+            <p>GITHUB</p>
         </div>
     </div>
-</body>
 
+
+
+    <!-- container -->
+    <div class="container main">
+
+        <!-- row -->
+        <div class="row">
+
+            <!-- left col -->
+            <div class="col-md-3 left">
+
+                <div class="card side-bar">
+                </div>
+
+            </div>
+
+
+            <!-- right col  -->
+            <div class="col-md-9 right">
+
+                <!-- inner container -->
+                <div class="container-fluid">
+
+                    <!-- header -->
+                    <div class="row header">
+                        <div class="container">
+                            Searh
+                        </div>
+                    </div>
+
+
+                    <!-- mid -->
+                    <div class="row mid-content">
+                        <div class="container mid-container">
+                            <div class="row mid-row">
+
+
+                                <!-- three columns -->
+                                <div class="col-md-4 col-container">
+                                    <div class="col"></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col"></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col"></div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- footer  -->
+                    <div class="row footer">
+                        <div class="container">
+                            <div class="footer-card"></div>
+                        </div>
+                    </div><!--3rd row  -->
+
+
+
+                </div>
+
+            </div>            
+            
+        </div><!-- row -->
+
+    </div><!-- container -->
+
+
+    <script src="index.js"></script>
+</body>
 </html>
